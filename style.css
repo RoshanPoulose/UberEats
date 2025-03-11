@@ -1,0 +1,667 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+@font-face {
+    font-family: rsize;
+    src: url(./font/eee1724e2e5a8ebd.woff2);
+}
+@font-face {
+    font-family: ssize;
+    src: url(./font/14f73a3f74611002.woff2);
+}
+@font-face {
+    font-family: usize;
+    src: url(./font/276edd4275dda838.woff2);
+}
+.person span{
+    display: none;
+}
+.mainheader{
+    background-image: url("https://www.ubereats.com/_static/d8ceaf24a3164759.webp");
+    height: 608px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+.mnav{
+    display: flex;
+    align-items: center;
+   
+    padding: 0px 16px;
+    height: 48px;
+}                  
+.bar{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4px ;     
+    transform: translateX(-5.5px);
+}
+
+.uberimg img{
+    height: 16px;
+    width: auto;
+}
+.person{
+    background: #FFFFFF;
+    margin-right: 12px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 500px;
+}
+.person svg{
+    height: 16px;
+    width: 16px;
+}
+.flexboy{
+    flex: 1;
+}
+.signup{
+    display: flex;
+    align-items: center;
+    height: 36px;
+    font-family: rsize;
+    color :rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 500px;
+    background-color: black;
+    padding: 8px 12px;
+
+}
+.uberimg{
+    display: flex;
+    align-items: center;
+}
+.ordersub{
+    padding: 0px 16px;
+    position: absolute;
+    top: 104px;
+
+}
+.orderh1{
+    font-family: ssize;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-bottom:24px ;
+    color: black;
+   
+}
+.deliverysub{
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+    height: 56px;
+    box-shadow: rgb(243, 243, 243) 0px -1px 0px 0px inset;
+    background-color :rgb(255, 255, 255);
+}   
+.location{
+    margin: 12px;
+    display: flex;
+    align-items: center;
+}
+.location svg{
+    height: 24px;
+    width: 24px;
+}
+.del{
+    font-family: usize;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+   
+    color:rgb(75, 75, 75);
+}
+.delo{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.delsvg svg{
+    height: 24px;
+    width: 24px;
+
+}
+.delsvg{
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.delh1{
+    font-family: rsize;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color:black;
+}    
+.delivery{
+    padding: 8px 0px;
+}
+#pd{
+    margin-bottom: 8px;
+    padding-top: 0px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: black;
+    padding: 12px 16px;
+    height: 56px;
+}
+.search div{
+    color: rgb(255, 255, 255);
+    font-family: rsize;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+.orsign a{
+    
+    font-family: rsize;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+.orsign{
+    margin-top: 24px;
+    font-family: rsize;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+.demo{
+    height: 32px;
+}
+main{
+    padding-top: 16px;
+}
+.banner{
+    margin: 0px 16px;
+}
+.subbanner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.subbanner img{
+    height: 64px;
+    width: 64px;
+    margin-right: 16px;
+}
+.banh1{
+    font-family: ssize;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.appsvg svg{
+    height: 18px;
+    width: 18px;
+}
+.app{
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    border-radius: 8px;
+    background-color: rgb(243, 243, 243);
+}   
+.apph1{
+    font-family: rsize;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}     
+.appsvg{
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+} 
+.spacer{
+    height: 48px;
+}
+.thecontainer{
+    margin: 0px 16px;
+}
+.container{
+    display: flex;
+   
+    align-items: flex-start;
+    flex-direction: column;
+}
+.thecontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.container img{
+    width: 100%;
+    margin-bottom: 8px;
+}
+.ph1{
+    font-family: ssize;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.ph2{
+    margin-top: 8px;
+    font-family: rsize;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: underline;
+}
+
+.cspace{
+    height: 50px;
+}
+.citymain{
+    margin: 0px 16px;
+
+}
+.cityimg {
+    margin: 16.5px 0px 12px;
+}    
+.cityimg img{
+    height: 360px;
+
+    width: 100%;
+    background-position: center ;
+    object-fit: cover;
+    background-size: cover;
+}
+.cityh1{
+    font-family: ssize;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.cityn{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 8px;
+    row-gap: 16px;
+}
+.cityname{
+    font-family: usize;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:black;
+}
+.citynames{
+    font-family: usize;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:black;
+    height: 48px;
+}
+.ci{
+    height: 21.5px;     
+}
+.view{
+        font-family: rsize;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color:black;
+    text-decoration: underline;
+}
+#cits{
+    margin-top: 24px;
+    row-gap: 24px;
+}
+.cs{
+    height: 24px;
+}
+footer{
+    margin-top: 64px;
+    padding: 64px 16px 80px 16px;
+    border-top: 0.8px solid rgb(243, 243, 243);
+}
+.eatimg img{
+    height: 24px;
+}
+.eatimg {
+    margin-bottom: 48px;
+}
+.appstore{
+    display: flex;
+    gap: 16px;
+}
+.di img{
+    height: 40px;
+}
+.appm{
+    margin-bottom: 64px;
+}
+.cards{
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    margin-bottom: 16px;
+    font-family: usize;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:black;
+    display: flex;
+    align-items: center;
+}
+.card svg{
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+}                    
+.hrs{
+     margin-bottom: 40px;
+}
+.social{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+.sicon svg{
+    width: 16px;
+    height: 16px;
+}
+.sicon {
+    height: 20px;
+}
+.privacy{
+    display: flex;
+    flex-direction: column;
+}  
+.privacy2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}           
+.subprivacy{
+    display: flex;
+    margin-bottom: 16px;
+    font-family: usize;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color:black;
+    display: flex;
+    align-items: center;
+}   
+.east{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width:768px){
+    .mainheader{
+        height: 824px;
+    }
+    .order{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:1000px){
+    .mainheader{
+        background-image:url(./font/c413f20400e04805.webp);
+        height: 824px;
+    }
+    .order{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .del{
+        margin-left: 4px;
+        font-family: rsize;
+    }
+    .bar{
+        margin-right: 6px;
+        display: flex;
+         
+    }
+    .bar svg{
+        margin-right: 6px;
+    }
+    nav{
+        top:8px;
+    }
+    .delh1{
+        margin-right: 4px;
+    }
+    .orsign{
+        margin-top: 7px;
+    }
+    
+    .mnav{
+        padding: 0px 40px;
+     
+        max-width: 1920px;    
+    }
+    .ordersub{
+        max-width: 1920px;
+        padding: 0px 40px;
+        width: 100%;
+    }
+    #pd2{
+        min-width: 500px;
+    }
+     .theflex{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 8px;
+     }
+     #pd{
+        padding-top: 16px;   
+     }
+    
+    
+    .banner{
+     display: none;
+    }
+    .thecontainer{
+       display: flex;
+       flex-direction: row;
+        margin-left: 0px;
+    }
+    .cityn{
+        margin-top: 12px;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .cspace{
+        height: 80px;
+    }
+    .citymain{
+        margin: 0px 40px;
+        position: relative;
+    }
+    .view{
+        position: absolute;
+        top: 8px;
+        right: 0px;
+    }
+    .cityh1{
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .footerleft{
+        display: flex;
+    }
+    .east{
+        width: 50%;
+        flex-shrink: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .cards{  
+        width: 25%;
+        margin-bottom: 22px;
+    }    
+    footer{
+        padding: 64px 40px 72px 40px;
+        max-width:1280px ;
+        margin: 0px auto;
+    } 
+    .citynames{
+        height: 24PX;
+    }    
+    .subfp{
+        display: flex;
+     
+        justify-content: space-between;
+    }
+    .privacy{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+    .social{
+        margin-bottom: 0px;
+    }
+    .appstore{
+        transform: translateY(25px);
+    }
+    .privacy2{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 40px;
+        margin-bottom: 0px;
+    }
+    .ordersub{
+        position: inherit;
+    }
+    .orderh1{
+        font-size: 52px;
+        line-height: 64px;
+    }
+    .person span{
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        height: 36px;
+        font-family: rsize;
+        color :black;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        border-radius: 500px;
+        background-color:white;
+        padding: 8px 12px;
+    }
+    .person{
+        margin-right:30px ;
+    }
+    .ph1 {
+        font-family: ssize;
+        color: black;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+    .person svg{
+        display: none;
+    }
+    .thecontainer{
+      gap: 0px;
+
+    }
+    .container{
+        padding: 0px 12px;
+    }
+    #contu{
+        padding-left: 0px;
+    }
+    main{
+        padding-top: 0px;
+    }   
+   
+    footer{
+        margin-top: 68px;
+    }
+    .cspace {
+        height: 160px;
+    } 
+}         
+
+   
+@media (min-width:1200px){
+    .mainheader{
+        height:695.5px
+    }
+    .container{
+        padding: 0px 12px;
+    }
+    .orsign{
+        margin-top: 8px;
+
+    }
+    .delh1{
+        margin-bottom: 1px;
+    }
+    .mnav{
+       margin: 0px auto;
+        
+    }
+    .cspace {
+        height: 160px;
+    } 
+    footer{
+        margin-top: 68px;
+    }
+     .cards{  
+        width: 25%;
+        margin-bottom: 24px;
+    } 
+    #cits{
+        margin-bottom: 2px;
+    }
+}
+@media (min-width:1600px){
+    .mainheader{
+        height:911px;
+    }
+}
